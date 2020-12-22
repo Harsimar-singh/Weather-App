@@ -1,0 +1,23 @@
+.container {
+    margin-top: 1.2rem;
+  }
+  
+  .container input,
+  .container ::-webkit-input-placeholder {
+    color: white !important;
+  }
+  .container input:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 2px solid tomato;
+  }
+
+  .fas{
+    color: white!important;
+    font-size: 40px;
+  }
+
+  .fas fa-temperature-low,.fas fa-temperature-high,.fas fa-wind,.fas fa-tint{
+    font-size: 25px;
+  }
